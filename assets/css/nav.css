@@ -65,3 +65,7 @@
 .img-circle {
     padding: 7px 0;
 }
+
+.dropdown-backdrop {
+    display: none !important;
+}
