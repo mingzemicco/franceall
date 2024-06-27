@@ -100,22 +100,19 @@
               </a>
             </li>
             <li class="dropdown hover-line language-switcher">
-              <a href="/dist/cn.html" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="/assets/images/flags/flag-cn.png" alt="flag-cn" /> 中文
-              </a>
+              <a class="dropdown-toggle" data-toggle="dropdown"></a>
               <ul class="dropdown-menu languages">
-              <li>
+                <li class="en">
                   <a href="/dist/en.html">
                     <img src="/assets/images/flags/flag-us.png" alt="flag-us" /> English
                   </a>
                 </li>
-            
-                <li class="active">
+                <li class="cn">
                   <a href="/dist/cn.html">
                     <img src="/assets/images/flags/flag-cn.png" alt="flag-cn" /> 中文
                   </a>
                 </li>
-                <li>
+                <li class="fr">
                   <a href="/dist/fr.html">
                     <img src="/assets/images/flags/flag-fr.png" alt="flag-fr" /> Français
                   </a>
@@ -277,6 +274,43 @@
     <!-- JavaScripts initializations and stuff -->
     <script src="/assets/js/xenon-custom.js"></script>
     <script src="/assets/js/lozad.js"></script>
+    <script>
+      const path = location.pathname;
+      const LangFlag = {
+        'fr': '/assets/images/flags/flag-fr.png',
+        'cn': '/assets/images/flags/flag-cn.png',
+        'en': '/assets/images/flags/flag-us.png'
+      };
+      const LangText = {
+        'fr': 'Français',
+        'cn': '中文',
+        'en': 'English'
+      }
+      const langSwitcher = document.querySelector('.language-switcher');
+      if (langSwitcher) {
+        const dropdoanMenu = langSwitcher.querySelector('.dropdown-menu.languages');
+        let anchorEl;
+        let langKey;
+        if (path.includes('cn')) {
+          anchorEl = dropdoanMenu.querySelector('li.cn a');
+          langKey = 'cn';
+        } else if (path.includes('en')) {
+          anchorEl = dropdoanMenu.querySelector('li.en a');
+          langKey = 'en';
+        } else if (path.includes('fr')) {
+          anchorEl = dropdoanMenu.querySelector('li.fr a');
+          langKey = 'fr';
+        }
+        if (anchorEl) {
+          anchorEl.classList.add('active');
+        }
+        const dropdownToggle = langSwitcher.querySelector('.dropdown-toggle');
+        if (dropdownToggle && langKey) {
+          dropdownToggle.href = `/dist/${langKey}.html`;
+          dropdownToggle.innerHTML = `<img src="${LangFlag[langKey]}" alt="flag-${langKey}" /> ${LangText[langKey]}`;
+        }
+      }
+    </script>
   </body>
   {{configScript}}
 </html>

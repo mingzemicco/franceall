@@ -1,0 +1,12 @@
+{
+  "name": "franceall",
+  "version": "1.0.0",
+  "description": "Webstack网址导航 === ### Demo: [➡️ www.webstack.cc](https://webstack.cc)",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js cn && node build.js en && node build.js fr"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
