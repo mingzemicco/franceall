@@ -5,7 +5,7 @@ const MenuConfig = [
     iconClass: 'linecons-star'
   },
   {
-    text: `{{menu.banque&insurance}}`,
+    text: `{{menu.bank&insurance}}`,
     iconClass: 'fa-bank',
     children: [
       {
@@ -37,7 +37,7 @@ const MenuConfig = [
     ]
   },
   {
-    text: "{{menu.renting}}",
+    text: "{{menu.logement}}",
     iconClass: 'fa-home',
     children: [
       {
@@ -122,7 +122,7 @@ const ContentConfig = {
       title: `{{bank.bnp}}`,
       link: 'https://mabanque.bnpparibas/fr/ouvrir-un-compte/?agence=EERI',
       desc: `{{bank.bnp.desc}}`,
-      img: '/assets/images/logos/bnp.png'
+      img: '/assets/images/logos/bnparibas.png'
     },
     {
       title: `{{bank.lcl}}`,
@@ -146,7 +146,7 @@ const ContentConfig = {
   'onlinebank': [
     {
       title: `{{bank.revolut}}`,
-      link: 'https://business.revolut.com/signup?af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Ffr-FR%2Fbusiness%2Fpm-business-n%2F%22%2C%22cookie_consent%22%3A%5B%22ads%22%2C%22analytics%22%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2Ffr-FR%2Fbusiness%2Fpm-business-n%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%22721229a0-8ee3-492f-99da-c989d9312440%22%7D&af_c_id=18316596177&af_adset_id=142904601484&pid=Google&gad_source=1&gclid=CjwKCAjwm_SzBhAsEiwAXE2Cv085VdaGQVdnJIsj5BTle7aD3vfDd6QlxNdo2c9YzGsX8Q4FKxKnfRoCfRkQAvD_BwE&af_sub5=FR&keyword=comment%20ouvrir%20compte%20bancaire&utm_source=Google&af_adset=%7Badset.name%7D&af_ad=692710877271&utm_campaign=Rev_BIZ_GSearch_2021_FR_FR_ALL&af_channel=website_organic&af_ad_id={ad.id}&c=Rev_BIZ_GSearch_2021_FR_FR_ALL',
+      link: 'https://www.revolut.com/en-FR/',
       desc: `{{bank.revolut.desc}}`,
       img: '/assets/images/logos/revolut.png'
     },
@@ -154,7 +154,7 @@ const ContentConfig = {
       title: `{{bank.hellobank}}`,
       link: 'https://www.hellobank.fr/fr/avantages/devenir-client-hello/',
       desc: `{{bank.hellobank.desc}}`,
-      img: '/assets/images/logos/hellobank.png'
+      img: '/assets/images/logos/hellobanque.png'
     },
     {
       title: `{{bank.fortuneo}}`,
@@ -172,137 +172,137 @@ const ContentConfig = {
   'insurance': [
     {
       title: `{{bank.axa}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.axa.fr/services-assistance/services-en-ligne/aide-connexion.html',
       desc: `{{bank.axa.desc}}`,
-      img: '/assets/images/logos/ambassade.png'
+      img: '/assets/images/logos/axa.png'
     },
     {
       title: `{{bank.mutuelle}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.service-public.fr/particuliers/vosdroits/F20314',
       desc: `{{bank.mutuelle.desc}}`,
-      img: '/assets/images/logos/ambassade.png'
+      img: '/assets/images/logos/republique.png'
     }
   ],
   'simcard': [
     {
       title: `{{simcard.orange}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://boutique.orange.fr/mobile/offres',
       desc: `{{simcard.orange.desc}}`,
       img: '/assets/images/logos/orange.png'
     },
     {
       title: `{{simcard.sfr}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.sfr.fr/offre-mobile',
       desc: `{{simcard.sfr.desc}}`,
       img: '/assets/images/logos/sfr.png'
     }
     ,
     {
       title: `{{simcard.bouyguesmobile}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.bouyguestelecom.fr/forfaits-mobiles/sans-engagement',
       desc: `{{simcard.bouyguesmobile.desc}}`,
-      img: '/assets/images/logos/sfr.png'
+      img: '/assets/images/logos/bouygues.png'
     },
     {
       title: `{{simcard.freemobile}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://mobile.free.fr/',
       desc: `{{simcard.freemobile.desc}}`,
-      img: '/assets/images/logos/sfr.png'
+      img: '/assets/images/logos/free.png'
     },
     {
       title: `{{simcard.lycamobile}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.lycamobile.fr/fr/',
       desc: `{{simcard.lycamobile.desc}}`,
-      img: '/assets/images/logos/sfr.png'
+      img: '/assets/images/logos/lycamobile.png'
     },
     {
       title: `{{simcard.lebara}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.lebara.fr/fr/home.html',
       desc: `{{simcard.lebara.desc}}`,
-      img: '/assets/images/logos/sfr.png'
+      img: '/assets/images/logos/lebara.png'
     }
   ],
   'internet': [
     {
       title: `{{internet.orangebox}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://boutique.orange.fr/internet/offres-fibre',
       desc: `{{internet.orangebox.desc}}`,
       img: '/assets/images/logos/orange.png'
     },
     {
       title: `{{internet.sfrbox}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.sfr.fr/offre-internet',
       desc: `{{internet.sfrbox.desc}}`,
       img: '/assets/images/logos/sfr.png'
     },
     {
       title: `{{internet.bouyguesbox}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.bouyguestelecom.fr/offres-internet',
       desc: `{{internet.bouyguesbox.desc}}`,
-      img: '/assets/images/logos/sfr.png'
+      img: '/assets/images/logos/bouygues.png'
     },
     {
       title: `{{inernet.freebox}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.free.fr/freebox/',
       desc: `{{inernet.freebox.desc}}`,
-      img: '/assets/images/logos/sfr.png'
+      img: '/assets/images/logos/free.png'
     }
   ],
   'rent': [
     {
       title: `{{rent.newEurope}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://bbs.xineurope.com/cat_2.html',
       desc: `{{rent.newEurope.desc}}`,
-      img: '/assets/images/logos/orange.png'
+      img: '/assets/images/logos/xineurope.png'
     },
     {
       title: `{{rent.huarenjie}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.huarenjiewang.com/category-32-9-1.html',
       desc: `{{rent.huarenjie.desc}}`,
-      img: '/assets/images/logos/sfr.png'
+      img: '/assets/images/logos/huarenjie.png'
     },
     {
       title: `{{rent.studapart}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.studapart.com/',
       desc: `{{rent.studapart.desc}}`,
-      img: '/assets/images/logos/sfr.png'
+      img: '/assets/images/logos/studapart.png'
     },
     {
       title: `{{rent.bienici}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.bienici.com/recherche/location/paris-75000/appartement',
       desc: `{{rent.bienici.desc}}`,
-      img: '/assets/images/logos/sfr.png'
+      img: '/assets/images/logos/bienici.png'
     },
     {
       title: `{{rent.seloger}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.seloger.com/immobilier/locations/immo-paris-75/bien-appartement/',
       desc: `{{rent.seloger.desc}}`,
       img: '/assets/images/logos/seloger.png'
     }
     ,
     {
       title: `{{rent.leboncoin}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.leboncoin.fr/locations/offres/ile_de_france/paris',
       desc: `{{rent.leboncoin.desc}}`,
-      img: '/assets/images/logos/seloger.png'
+      img: '/assets/images/logos/leboncoin.png'
     }
   ],
   'electricity': [
     {
       title: `{{electricity.engie}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://particuliers.engie.fr/',
       desc: `{{electricity.engie.desc}}`,
-      img: '/assets/images/logos/orange.png'
+      img: '/assets/images/logos/engie.png'
     },
     {
       title: `{{electricity.totalenergie}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.totalenergies.fr/particuliers/devenir-client/comment-souscrire',
       desc: `{{electricity.totalenergie.desc}}`,
       img: '/assets/images/logos/sfr.png'
     },
     {
       title: `{{electricity.EDF}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://souscrire.edf.fr/MS/index.html?at_previous_click=menu_souscrire',
       desc: `{{electricity.EDF.desc}}`,
       img: '/assets/images/logos/edf.png'
     }
@@ -310,41 +310,41 @@ const ContentConfig = {
   'garant': [
     {
       title: `{{garantie.visale}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.visale.fr/visale-pour-les-locataires/avantages/',
       desc: `{{garantie.visale.desc}}`,
       img: '/assets/images/logos/visale.png'
     },
     {
       title: `{{garantie.smartgarant}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.smart-garant.com/partners/micco',
       desc: `{{garantie.smartgarant.desc}}`,
-      img: '/assets/images/logos/sfr.png'
+      img: '/assets/images/logos/smartgarant.png'
     },
     {
       title: `{{garantie.garentme}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://garantme.fr/fr/',
       desc: `{{garantie.garentme.desc}}`,
-      img: '/assets/images/logos/edf.png'
+      img: '/assets/images/logos/garantme.png'
     }
   ],
   'transport': [
     {
       title: `{{tranport.ratp}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://www.ratp.fr/titres-et-tarifs/forfait-navigo-annuel',
       desc: `{{tranport.ratp.desc}}`,
       img: '/assets/images/logos/ratp.png'
     },
     {
       title: `{{tranport.citymapper}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
+      link: 'https://citymapper.com/',
       desc: `{{tranport.citymapper.desc}}`,
-      img: '/assets/images/logos/sfr.png'
+      img: '/assets/images/logos/citymapper.png'
     },
     {
       title: `{{tranport.blablacar}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
-      desc: `{{tranport.ouigo.desc}}`,
-      img: '/assets/images/logos/edf.png'
+      link: 'https://www.blablacar.com/',
+      desc: `{{tranport.blablacar.desc}}`,
+      img: '/assets/images/logos/blablacar.png'
     },
     {
       title: `{{tranport.ouigo}}`,
@@ -353,16 +353,28 @@ const ContentConfig = {
       img: '/assets/images/logos/edf.png'
     },
     {
-      title: `{{tranport.ouigo}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
-      desc: `{{tranport.ouigo.desc}}`,
-      img: '/assets/images/logos/edf.png'
+      title: `{{tranport.idfmobilite}}`,
+      link: 'https://www.iledefrance-mobilites.fr/',
+      desc: `{{tranport.idfmobilite.desc}}`,
+      img: '/assets/images/logos/iledefrance-mobilites.png'
     },
     {
-      title: `{{tranport.ouigo}}`,
-      link: 'http://fr.china-embassy.gov.cn/chn/zgzfg/zgsg/lsb/tz/',
-      desc: `{{tranport.ouigo.desc}}`,
-      img: '/assets/images/logos/edf.png'
+      title: `{{tranport.fileo}}`,
+      link: 'https://www.fileo.com/',
+      desc: `{{tranport.fileo.desc}}`,
+      img: '/assets/images/logos/fileo.png'
+    },
+    {
+      title: `{{tranport.uber}}`,
+      link: 'https://www.uber.com/fr/en/',
+      desc: `{{tranport.uber.desc}}`,
+      img: '/assets/images/logos/uber.png'
+    },
+    {
+      title: `{{tranport.SNCFConnect}}`,
+      link: 'https://www.sncf-connect.com/',
+      desc: `{{tranport.SNCFConnect.desc}}`,
+      img: '/assets/images/logos/sncf_connect.png'
     }
   ]
 
