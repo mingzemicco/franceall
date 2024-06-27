@@ -1,6 +1,9 @@
 {
-    "title": "FranceAll - Navigation de la vie en France",
-    "commonRecommendations": "Recommandations communes",
+    "index.title": "All-in-France.com - Portail de la vie en France",
+    "index.keywords:":"Vie en France, portail de navigation, déménager en France, exigences de résidence, guide complet pour travailler et vivre en France.",
+    "index.description": "Découvrez tout ce dont vous avez besoin pour commencer une nouvelle vie en France avec All-in-France.com. De la demande de visa et des exigences de résidence à la recherche d'emploi, de logement et à la découverte de la culture française, nos guides complets et nos ressources vous aideront à faire une transition en douceur. Explorez nos guides étape par étape, nos conseils d'experts et nos perspectives locales pour assurer le succès de votre séjour en France.",
+    "index.sendUsLinks": "Envoyez nous les liens utiles",
+    "commonRecommendations": "Recommandations",
     "telecomInternet": "Télécom et Internet",
     "mobileCard": "Carte Mobile",
     "internet": "Internet",
@@ -9,5 +12,140 @@
     "utilities": "Services publics",
     "transportation": "Transport",
     "aboutUs": "À propos de nous",
-    "sendUsLinks": "Envoyez-nous des liens utiles"
+
+    "menu.recommendation": "Recommandations",
+    "menu.bankinsurance": "Banque & Assurance",
+    "menu.banktradi": "Banque traditionnelle",
+    "menu.bankonline": "Banque en ligne",
+    "menu.insurance": "Assurance",
+    "menu.telecommunication": "Moible et Internet",
+    "menu.simcard": "Forfait Mobile",
+    "menu.internet": "Forfait Internet",
+    "menu.Logement": "Logement",
+    "menu.rent": "Location",
+    "menu.electricity": "Electricité",
+    "menu.garant": "Garant location",
+    "menu.transport": "Transport",
+ 
+    "foreigner.residency": "Etranger en France",
+    "foreigner.residency.desc": "Demande de renouvellement de titre de séjour en France",
+    "visa.visa": "VISA pour la France",
+    "visa.desc": "France-Visa pour la première demande de VISA",
+    "healthcare.student": "Assurance santé pour les étudiants étrangers",
+    "healthcare.student.desc": "Assurance santé en France ",
+    "ameli.ameli": "Inscription à l'assurance sociale des étudiants étrangers",
+    "ameli.desc": "Il est essentiel d'avoir l'assurance sociale en cas de maladie en restant en France.",
+    "caf.caf": "CAF",
+    "caf.desc": "Centre de gestion des allocations familiales : Informations sur les différentes aides au logement",
+    "photo.photo": "Photo d'identité pour le métro",
+    "photo.desc": "Photomaton",
+    "ratp.card": "Carte de métro",
+    "ratp.card.desc": "Demander une carte annuelle de métro",
+    "ambassador.china": "Ambassade de Chine",
+    "ambassador.desc": "Affaires consulaires et des ressortissants chinois",
+
+    "bank.bnp": "BNP Paribas",
+    "bank.bnp.desc": "Banque traditionnelle",
+    "bank.lcl": "LCL",
+    "bank.lcl.desc": "Banque pour les particuliers",
+    "bank.societegeneral": "Société Général",
+    "bank.societegeneral.desc": "Gagner 80€ pour creer votre compte chez socoete generale grace a all-in-france.com",
+    "bank.Caissedepargne":"Caisse depargne ",
+    "bank.caissedepargne.desc":"Banque pour les particulier ",
+    "bank.revolut.":"Revolut",
+    "bank.revolut.desc":"Banque en ligne ",
+    "bank.hellobank.":"Hellobank",
+    "bank.hellobank.desc":"Banque pour les particuliers",
+    "bank.fortuneo":"Fortuneo",
+    "bank.fortuneo.desc":"Banque pour les particuliers",
+    "bank.boursorama":"Boursorama",
+    "bank.boursorama.desc":"Banque pour les particuliers",
+    "bank.axa":"AXA",
+    "bank.axa.desc":"Assurance des particuliers",
+    "bank.mutuelle":"Mutuelle",
+    "bank.mutuelle.desc":"Banque pour les particuliers",
+
+    
+    
+    "simcard.orange": "Orange",
+    "simcard.orange.desc": "Fournisseur de forfait mobile Orange",
+    "simcard.sfr": "SFR",
+    "simcard.sfr.desc": "Fournisseur de forfait mobile SFR",
+    "simcard.bouyguesmobile": "Bouyguesmobile",
+    "simcard.bouyguesmobile.desc": "fournisseur de forfait mobile bouygues pas cher",
+    "simcard.freemobile": "Free Mobile",
+    "simcard.freemobile.desc": "Fourniseur de forfait mobile free pas cher",
+    "simcard.lycamobile": "Lyca Mobile",
+    "simcard.lycamobile.desc": "Carte SIM prepayée",
+    "simcard.lebara": "Lebara",
+    "simcard.lebara.desc": "Lebara propose des forfait mobile avec des appels ilimites",
+    "internet.orangebox": "Orange Internet",
+    "internet.orangebox.desc": "Orange propose un forfait internet liveBox",
+    "internet.sfrbox": "SFR Internet",
+    "internet.sfrbox.desc": "Propose un forfait internet",
+    "internet.bouyguesbox": "Bouygues Internet",
+    "internet.bouyguesbox.desc": "Operateur mobile fournit des services de telecommunication sans fil aux utilisateurs ",
+    "inernet.freebox": "Freebox",
+    "inernet.freebox.desc": "Souscrire au reseau free",
+
+
+    "rent.newEurope": "XinEurope",
+    "rent.newEurope.desc": "un grand nombre de proprietres chinois offrent des logements a louer ",
+    "rent.huarenjie": "Huarenjie",
+    "rent.huarenjie.desc": "Site specilement dedie aux chinois et aux asiatiques en France offrant des services de vie et socialisation.",
+    "rent.studapart": "Studapart",
+    "rent.studapart.desc": "Studapart pour la location de logements etudiants, avec un vast choix de proprietaires en France ",
+    "rent.bienici": "Bien ici ",
+    "rent.bienici.desc": "Proprietaires français, large choix de logement disponibles ",
+    "rent.seloger": "Seloger",
+    "rent.seloger.desc": "Vaste selection de logement proposes par des proprietaires en France",
+    "rent.leboncoin": "Leboncoin ",
+    "rent.leboncoin.desc": "Des annonces de logements en france propose pas des proprieters ",
+
+    "electricity.engie": "Engie",
+    "electricity.engie.desc": "EDF (Electricite de France ), le plus grand fournisseure d'electricite en France ",
+    "electricity.totalenergie": "totalenergie",
+    "electricity.totalenergie.desc": "le groupe totalenergie ",
+    "electricity.EDF":"EDF",
+    "electricity.EDF.desc":"EDF(electricite de france): Ouverture de compteur delectricite ou de gaz, presentation des tarifs,ect",
+
+    "garantie.visale":"visale",
+    "garantie.visale.desc":"free garantie for by french gouverment", 
+    "garantie.smartgarant.":"smartgarant",
+    "garantie.smartgarant.desc":"smartgarant, garentie for every one",
+    "garantie.garentme.":"garentme",
+    "garantie.garenteme.desc":"garentme, french entreprise for renting garants",
+    
+    
+
+    "tranport.ratp":"ratp",
+    "tranport.ratp.desc":"moyen de transport dans toute l'ile de France",
+    "tranport.citymapper.":"citymapper",
+    "tranport.citymapper.desc":"systeme de navigation", 
+    "tranport.ouigo.":"ouigo",
+    "tranport.ouigo.desc":"Achat de billet de train den France",
+    "tranport.blablacar.":"blablacar",
+    "tranport.blablacar.desc":"free&Premium Design Resources-medialoot",
+    "tranport.idfmobilite.":"idfmobilite",
+    "tranport.idfmobilite.desc":"un site specialise dans le telechargement gratuit des resources de design",
+    "tranport.fileo - ile de France.":"fileo - iles de France", 
+    "tranport.fileo - ile de France.desc":"train de nuit en ile des France",
+    "tranport.uber.":"Uber",
+    "tranport.uber.desc":"Moyen de deplacement a bord d'un vehicule",
+    "tranport.SNCF Connect.":"SNCF Cnnect",
+    "tranport.SNCF Connect.desc":"connaitre les horaires dans toutes la France"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
