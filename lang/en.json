@@ -100,11 +100,11 @@
     "rent.leboncoin.desc": "Housing ads in France offered by landlords",
 
     "electricity.engie": "Engie",
-    "electricity.engie.desc": "EDF (Electricité de France), the largest electricity supplier in France",
+    "electricity.engie.desc": "Engie, the largest electricity supplier in France",
     "electricity.totalenergie": "TotalEnergie",
     "electricity.totalenergie.desc": "The TotalEnergie group",
     "electricity.EDF":"EDF",
-    "electricity.EDF.desc":"EDF (Electricité de France): Opening of electricity or gas meters, presentation of tariffs, etc.",
+    "electricity.EDF.desc":"EDF : Opening of electricity or gas meters, presentation of tariffs, etc.",
 
     "garantie.visale":"Visale",
     "garantie.visale.desc":"Free guarantee by the French government",
@@ -120,7 +120,7 @@
     "tranport.ouigo":"Ouigo",
     "tranport.ouigo.desc":"Purchase of train tickets in France",
     "tranport.blablacar":"Blablacar",
-    "tranport.blablacar.desc":"Free & Premium Design Resources - Medialoot",
+    "tranport.blablacar.desc":"Sharing ride with local people in France",
     "tranport.idfmobilite":"IDF Mobilité",
     "tranport.idfmobilite.desc":"A site specializing in free download of design resources",
     "tranport.fileo":"Fileo - Île-de-France", 

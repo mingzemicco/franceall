@@ -100,11 +100,11 @@
     "rent.leboncoin.desc": "法国房东提供的住房广告",
 
     "electricity.engie": "Engie",
-    "electricity.engie.desc": "法国电力公司（EDF），法国最大的电力供应商",
+    "electricity.engie.desc": "法能集团，法国最大的电力供应商",
     "electricity.totalenergie": "道达尔能源",
     "electricity.totalenergie.desc": "道达尔能源集团",
     "electricity.EDF":"法国电力公司",
-    "electricity.EDF.desc":"法国电力公司（EDF）：电力或天然气计量器的开启，价格介绍等",
+    "electricity.EDF.desc":"法国电力公司：电力或天然气计量器的开启，价格介绍等",
 
     "garantie.visale":"Visale",
     "garantie.visale.desc":"法国政府提供的免费担保",
@@ -120,7 +120,7 @@
     "tranport.ouigo":"Ouigo",
     "tranport.ouigo.desc":"法国火车票购买",
     "tranport.blablacar":"Blablacar",
-    "tranport.blablacar.desc":"免费和高级设计资源 - Medialoot",
+    "tranport.blablacar.desc":"法国共享汽车、大巴服务",
     "tranport.idfmobilite":"IDF Mobilité",
     "tranport.idfmobilite.desc":"专门提供免费设计资源下载的网站",
     "tranport.fileo":"Fileo - 法兰西岛",

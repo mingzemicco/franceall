@@ -103,37 +103,37 @@
     "rent.leboncoin.desc": "Des annonces de logements en france propose pas des proprieters ",
 
     "electricity.engie": "Engie",
-    "electricity.engie.desc": "EDF (Electricite de France ), le plus grand fournisseure d'electricite en France ",
-    "electricity.totalenergie": "totalenergie",
+    "electricity.engie.desc": "Engie, le plus grand fournisseure d'electricite en France ",
+    "electricity.totalenergie": "Total Energie",
     "electricity.totalenergie.desc": "le groupe totalenergie ",
     "electricity.EDF":"EDF",
-    "electricity.EDF.desc":"EDF(electricite de france): Ouverture de compteur delectricite ou de gaz, presentation des tarifs,ect",
+    "electricity.EDF.desc":"EDF: Ouverture de compteur delectricite ou de gaz, presentation des tarifs,ect",
 
-    "garantie.visale":"visale",
-    "garantie.visale.desc":"free garantie for by french gouverment", 
-    "garantie.smartgarant.":"smartgarant",
+    "garantie.visale":"Visale",
+    "garantie.visale.desc":"Service de garant gratuit pour les étudiants et jeunes actives", 
+    "garantie.smartgarant":"Smart Garant",
     "garantie.smartgarant.desc":"smartgarant, garentie for every one",
-    "garantie.garentme.":"garentme",
-    "garantie.garenteme.desc":"garentme, french entreprise for renting garants",
+    "garantie.garentme":"Garentme",
+    "garantie.garenteme.desc":"Garentme, french entreprise for renting garants",
     
     
 
-    "tranport.ratp":"ratp",
-    "tranport.ratp.desc":"moyen de transport dans toute l'ile de France",
-    "tranport.citymapper":"citymapper",
-    "tranport.citymapper.desc":"systeme de navigation", 
-    "tranport.ouigo":"ouigo",
+    "tranport.ratp":"Ratp",
+    "tranport.ratp.desc":"Moyen de transport dans toute l'ile de France",
+    "tranport.citymapper":"Citymapper",
+    "tranport.citymapper.desc":"Guide des horaires en Ile de France", 
+    "tranport.ouigo":"Ouigo",
     "tranport.ouigo.desc":"Achat de billet de train den France",
-    "tranport.blablacar":"blablacar",
-    "tranport.blablacar.desc":"free&Premium Design Resources-medialoot",
-    "tranport.idfmobilite":"idfmobilite",
-    "tranport.idfmobilite.desc":"un site specialise dans le telechargement gratuit des resources de design",
-    "tranport.fileo":"fileo - iles de France", 
-    "tranport.fileo.desc":"train de nuit en ile des France",
+    "tranport.blablacar":"Blablacar",
+    "tranport.blablacar.desc":"Partage de voiture en France et EnEurope",
+    "tranport.idfmobilite":"IDF Mobilité",
+    "tranport.idfmobilite.desc":"Un site specialise dans le telechargement gratuit des resources de design",
+    "tranport.fileo":"Fileo - iles de France", 
+    "tranport.fileo.desc":"Train de nuit en ile des France",
     "tranport.uber":"Uber",
     "tranport.uber.desc":"Moyen de deplacement a bord d'un vehicule",
     "tranport.SNCFConnect":"SNCF Cnnect",
-    "tranport.SNCFConnect.desc":"connaitre les horaires dans toutes la France"
+    "tranport.SNCFConnect.desc":"Connaitre les horaires dans toutes la France"
 }
 
 

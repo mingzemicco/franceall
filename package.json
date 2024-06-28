@@ -1,7 +1,7 @@
 {
   "name": "franceall",
   "version": "1.0.0",
-  "description": "Webstack网址导航 === ### Demo: [➡️ www.webstack.cc](https://webstack.cc)",
+  "description": "www.all-in-france.com === ### Demo: [➡️ www.all-in-france.com](https://www.all-in-france.com)",
   "main": "build.js",
   "scripts": {
     "build": "node build.js cn && node build.js en && node build.js fr"
