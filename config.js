@@ -242,9 +242,9 @@ const ContentConfig = {
       img: '/assets/images/logos/bouygues.png'
     },
     {
-      title: `{{inernet.freebox}}`,
+      title: `{{internet.freebox}}`,
       link: 'https://www.free.fr/freebox/',
-      desc: `{{inernet.freebox.desc}}`,
+      desc: `{{internet.freebox.desc}}`,
       img: '/assets/images/logos/free.png'
     }
   ],
