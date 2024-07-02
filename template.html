@@ -307,6 +307,9 @@
         } else if (path.includes('fr')) {
           anchorEl = dropdoanMenu.querySelector('li.fr a');
           langKey = 'fr';
+        } else if (path.includes('ar')) {
+          anchorEl = dropdoanMenu.querySelector('li.ar a');
+          langKey = 'ar';
         }
         if (anchorEl) {
           anchorEl.classList.add('active');
